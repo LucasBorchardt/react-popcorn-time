@@ -1,3 +1,6 @@
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <Header />
+
+      <Main />
+
+      <Footer />
     </div>
   );
 }
